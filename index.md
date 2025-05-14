@@ -47,7 +47,6 @@ its effectiveness for controllable text-to-video generation.
 				<div class="block_bottom">
 				</div>
 			</div>
-   </div>
 				    
 </div>
 </body>
