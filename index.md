@@ -35,6 +35,18 @@
 incorporate semantic features from a self-supervised vision encoder (e.g., DINO) to supervise spatial representation learning, enabling the model to perceive the subject's global structure and semantic consistency beyond low-level textures. For temporal supervision, we leverage optical flow representations extracted from pretrained models, which capture object-level motion trajectories that are structurally coherent and disentangled from appearance. Together, these high-level supervisory signals provide holistic guidance over both appearance and motion during training, significantly enhancing subject fidelity and motion controllability. To further improve the integration of subject and motion information, we introduce a staged injection strategy that aligns with the coarse-to-fine nature of diffusion generation, applying motion guidance in early steps and appearance refinement in later ones. Extensive experiments show that STRABooth achieves state of-the-art performance in subject and motion customization, demonstrating
 its effectiveness for controllable text-to-video generation.
 				</p>
-				
+			</header>
+			<div class="gray_div font-serif rw-r-container">
+				<div class="text-2xl lg:text-4xl leading-none pb-2 text-center"> Overview: <i>Summary of the Generated Videos</i>
+				</div>
+				<video class="video-center" width="896" height="504" controls>
+  <source src="assets/mp4/overview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+				</video>
+				<div class="block_bottom">
+				</div>
+			</div>
+				    
+</div>
 </body>
 </html>
