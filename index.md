@@ -27,17 +27,12 @@
 		<main>
 			<header class="row tm-welcome-section">
 			<h2 class="col-12 text-center tm-section-title">DreamVideo: Composing Your Dream Videos with Customized Subject and Motion</h2>
-			<h2 class="col-12 text-center tm-section-title"><b>Under review on Siggraph Asia 2025</b></h2>
-			ANONYMOUS AUTHOR(S)
-			<p class="col-12 text-center abstract-section" style="word-break:break-all;word-wrap:break-word">
-				Customized generation using diffusion models has made impressive progress in image generation, but remains unsatisfactory in the challenging video generation task, as it requires the controllability of both subjects and motions.
-				To that end, we present DreamVideo, a novel approach to generating personalized videos from a few static images of the desired subject and a few videos of target motion.
-				DreamVideo decouples this task into two stages, subject learning and motion learning, by leveraging a pre-trained video diffusion model.
-				The subject learning aims to accurately capture the fine appearance of the subject from provided images, which is achieved by combining textual inversion and fine-tuning of our carefully designed identity adapter.
-				In motion learning, we architect a motion adapter and fine-tune it on the given videos to effectively model the target motion pattern.
-				Combining these two lightweight and efficient adapters allows for flexible customization of any subject with any motion.
-				Extensive experimental results demonstrate the superior performance of our DreamVideo over the state-of-the-art methods for customized video generation.
-				We have now made the source code and models publicly available.
-			</p>
+				<h2 class="col-12 text-center tm-section-title"><b>Under review on Siggraph Asia 2025</b></h2>
+				ANONYMOUS AUTHOR(S)
+				<p class="col-12 text-center abstract-section" style="word-break:break-all;word-wrap:break-word">
+					Customized video generation aims to produce videos that faithfully preserve the subject's appearance from reference images while maintaining temporally consistent motion from reference videos. Existing methods primarily rely on reconstruction losses, which capture local details but lack high-level control over subject identity and motion dynamics. To address this limitation, we propose STRABooth, a framework that imposes explicit spatial and temporal supervision during training to steer the representation learning of diffusion-based video generation. For spatial enhancement, we
+incorporate semantic features from a self-supervised vision encoder (e.g., DINO) to supervise spatial representation learning, enabling the model to perceive the subject's global structure and semantic consistency beyond low-level textures. For temporal supervision, we leverage optical flow representations extracted from pretrained models, which capture object-level motion trajectories that are structurally coherent and disentangled from appearance. Together, these high-level supervisory signals provide holistic guidance over both appearance and motion during training, significantly enhancing subject fidelity and motion controllability. To further improve the integration of subject and motion information, we introduce a staged injection strategy that aligns with the coarse-to-fine nature of diffusion generation, applying motion guidance in early steps and appearance refinement in later ones. Extensive experiments show that STRABooth achieves state of-the-art performance in subject and motion customization, demonstrating
+its effectiveness for controllable text-to-video generation.
+				</p>
 </body>
 </html>
