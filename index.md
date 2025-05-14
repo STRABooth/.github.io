@@ -46,4 +46,119 @@ its effectiveness for controllable text-to-video generation.
 				<div class="block_bottom">
 				</div>
 			</div>
+			<![endif]-->
+
+制作图片展示页
+
+<div class="font-serif rw-r-container">
+
+<div class="text-2xl lg:text-4xl leading-none pb-2 text-center">
+
+Video Customization with <i>both</i> Subjects and Motions
+
+</div>
+
+<div class="text-base lg:text-lg pb-2 text-center ">
+
+You can generate videos flexibly with any subject and any motion.
+
+</div>
+
+<!-- Gallery row 1 -->
+
+<div class="row tm-gallery subject-container">
+
+<div id="tm-gallery-page-pizza" class="tm-gallery-page subject">
+
+<!-- Subject 1: dog -->
+
+<article class="col-md-4 tm-gallery-item">
+
+<figure>
+
+<div class="subject_img" style="display: flex">
+
+<img src="assets/images/subject/dog1.jpg" />
+
+<img src="assets/images/subject/dog2.jpg" />
+
+<img src="assets/images/subject/dog3.jpg" />
+
+<img src="assets/images/subject/dog4.jpg" />
+
+</div>
+
+<figcaption>
+
+<h4 class="tm-gallery-title text-center">dog</h4>
+
+</figcaption>
+
+</figure>
+
+</article>
+
+<!-- Subject 2: sloth -->
+
+<article class="col-md-4 tm-gallery-item">
+
+<figure>
+
+<div class="subject_img" style="display: flex">
+
+<img src="assets/images/subject/sloth1.jpg" />
+
+<img src="assets/images/subject/sloth2.jpg" />
+
+<img src="assets/images/subject/sloth3.jpg" />
+
+<img src="assets/images/subject/sloth4.jpg" />
+
+</div>
+
+<figcaption>
+
+<h4 class="tm-gallery-title text-center">sloth</h4>
+
+</figcaption>
+
+</figure>
+
+</article>
+
+<!-- Subject 3: monster -->
+
+<article class="col-md-4 tm-gallery-item">
+
+<figure>
+
+<div class="subject_img" style="display: flex">
+
+<img src="assets/images/subject/monster1.jpg" />
+
+<img src="assets/images/subject/monster2.jpg" />
+
+<img src="assets/images/subject/monster3.jpg" />
+
+<img src="assets/images/subject/monster4.jpg" />
+
+</div>
+
+<figcaption>
+
+<h4 class="tm-gallery-title text-center">monster</h4>
+
+</figcaption>
+
+</figure>
+
+</article>
+
+</div>
+
+</div><!-- gallery row 1 -->
+
+</div>
+			
+			
 				    
