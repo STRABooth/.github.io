@@ -36,6 +36,7 @@ incorporate semantic features from a self-supervised vision encoder (e.g., DINO)
 its effectiveness for controllable text-to-video generation.
 				</p>
 			</header>
+			
 			<div class="gray_div font-serif rw-r-container">
 				<div class="text-2xl lg:text-4xl leading-none pb-2 text-center"> Overview: <i>Summary of the Generated Videos</i>
 				</div>
