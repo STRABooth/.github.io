@@ -230,7 +230,7 @@ p, address {
   min-height: 400px;
   display: flex;
   align-items: flex-end;
-  background-image: url("assets/images/background.png");
+  background-image: url("/assets/images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
