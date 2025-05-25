@@ -230,7 +230,7 @@ p, address {
   min-height: 400px;
   display: flex;
   align-items: flex-end;
-  background-image: url(https://img.alicdn.com/imgextra/i3/O1CN01Ha0rYB1aa3kIfm2HG_!!6000000003345-2-tps-2560-1440.png);
+  background-image: url("assets/images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
